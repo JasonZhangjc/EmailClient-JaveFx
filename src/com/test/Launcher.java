@@ -1,5 +1,6 @@
 package com.test;
 
+import com.test.view.ViewFactory;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -18,15 +19,18 @@ public class Launcher extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage stage) throws Exception {
 
-        Parent parent = FXMLLoader.load(getClass().getResource("view/LoginWindow.fxml"));
+//        Parent parent = FXMLLoader.load(getClass().getResource("view/MainWindow.fxml"));
+//
+//        Scene scene = new Scene(parent);
+//
+////        primaryStage.setTitle("Hello World!");
+//        primaryStage.setScene(scene);
+//        primaryStage.show();
 
-        Scene scene = new Scene(parent, 542, 365);
-
-        primaryStage.setTitle("Hello World!");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        ViewFactory viewFactory = new ViewFactory(new EmailManager());
+        viewFactory.showLoginWindow();
 
     }
 }

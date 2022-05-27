@@ -1,0 +1,25 @@
+Model-view-controller architectural pattern
+    - used for developing user interfaces
+    - separation of functionality
+    - simultaneous development
+    - CONTROLLER controls MODEL
+    - MODEL updates VIEW
+    - User action between VIEW and CONTROLLER
+
+Main window:
+    - MenuBar -> different menus
+        - MenuItem
+    - TreeView -> email folders
+    - TableView -> email messages
+    - WebView -> read emails
+
+Communication between controllers:
+    1. Singleton
+    - The Singleton architecture is to add a new class called 'Singleton'
+      to realize the communication between all controllers.
+    - Not using the Singleton architecture as it will grow larger and larger
+      and become very hard to maintain
+
+    2. Abstract controller
+    - Email manager
+    - View factory
