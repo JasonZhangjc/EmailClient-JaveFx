@@ -28,3 +28,5 @@ Implement view options:
     - Enums
     - Keep the program state
     - Observable values -> view directly updates
+
+CSS styles - applied to scenes -> list of scenes

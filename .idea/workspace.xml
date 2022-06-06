@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2339acd6-1bfd-4414-9852-8500b4ce9c80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/test/controller/OptionsWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/view/OptionsWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/ColorTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/FontSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/fontBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/fontMedium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/fontSmall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/themeDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/themeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/css/themeLight.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes_for_development" beforeDir="false" afterPath="$PROJECT_DIR$/Notes_for_development" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/LoginWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/view/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/LoginWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/controller/OptionsWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/OptionsWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/view/OptionsWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/OptionsWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +31,7 @@
         <option value="module-info" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -40,18 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/jasonzjc/SceneBuilder/opt/scenebuilder/bin/SceneBuilder",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jasonzjc/SceneBuilder/opt/scenebuilder/bin/SceneBuilder&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
