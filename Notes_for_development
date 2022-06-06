@@ -23,3 +23,8 @@ Communication between controllers:
     2. Abstract controller
     - Email manager
     - View factory
+
+Implement view options:
+    - Enums
+    - Keep the program state
+    - Observable values -> view directly updates

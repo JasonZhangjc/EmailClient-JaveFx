@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2339acd6-1bfd-4414-9852-8500b4ce9c80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstJavaFx.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/view/LoginWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/view/LoginWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/controller/OptionsWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/view/OptionsWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes_for_development" beforeDir="false" afterPath="$PROJECT_DIR$/Notes_for_development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/LoginWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/controller/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/view/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/LoginWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/view/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/view/ViewFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +49,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.Launcher" />

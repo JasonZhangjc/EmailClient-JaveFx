@@ -10,7 +10,8 @@
 <?import javafx.scene.web.WebView?>
 
 
-<AnchorPane prefHeight="605.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.controller.MainWindowController">
+<AnchorPane prefHeight="605.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" >
+<!--    fx:controller="com.test.controller.MainWindowController"-->
    <children>
       <MenuBar layoutY="1.0" prefHeight="27.0" prefWidth="974.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
         <menus>
