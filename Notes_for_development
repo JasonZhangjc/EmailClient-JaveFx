@@ -30,3 +30,16 @@ Implement view options:
     - Observable values -> view directly updates
 
 CSS styles - applied to scenes -> list of scenes
+
+JavaMail jar
+    - Download javamail jar from the Internet
+Activation jar
+    - Download activation jar from the Internet
+Add the two jar as libraries to the project
+An email address (test gmail account with less secure apps access)
+    - Don't use your personal email address
+
+EmailAccount class - holds data used by app
+    - account properties for IMAP(sending) and SMTP(receiving)
+Login service class - actual logic
+
